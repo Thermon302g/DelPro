@@ -1,0 +1,28 @@
+{
+    "dirPath": {
+        "backUpDir": "/Users/natsukiishikura/Desktop/farmnote_backup",
+        "AOM": "../../MilkYield",
+        "CowTrap": "../../CowTrap" 
+    },
+    "fileLimits": 10,
+    "slackAPI":  "https://hooks.slack.com/services/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",
+    "CowTrap":{
+        "userName": "カウトラップ監視システム",
+        "iconEmoji": "ok_ushi",
+        "trapped": "カウトラップ使用",
+        "untrapped": "Unchecked"
+    },
+    "HighEC": {
+        "userName": "PLテスト対象牛通知",
+        "iconName": "ok_ushi"
+    },
+    "AOM": {
+        "encoding": "shift-JIS",
+        "todayAOM": "本日合計乳量",
+        "yesterdayAOM": "昨日乳量",
+        "rateOfDeclline": "rate_of_decline",
+        "userName": "乳量低下アラート",
+        "iconEmoji": "teika",
+        "limit": 50
+    }   
+}
